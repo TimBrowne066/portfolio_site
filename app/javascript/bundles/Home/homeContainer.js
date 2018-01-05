@@ -12,7 +12,19 @@ class HomeContainer extends React.Component {
 
     return (
       <div className="home_header">
-        <h1>hello</h1>
+      <div className="parallax1">
+        <h1>Timothy Browne</h1>
+        <h2>Software and Web Developer</h2>
+      </div>
+
+      <div className="content">
+        <h3>Headline</h3>
+        <p>Catchy bio.</p>
+      </div>
+
+      <div className="parallax2">
+        <h1>Projects</h1>
+      </div>
       </div>
     );
   }
