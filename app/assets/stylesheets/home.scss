@@ -14,7 +14,7 @@ h1 {
   color: #fff;
   text-align: center;
   font-size: 50px;
-  padding-top: 100px;
+  padding-top: 200px;
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 3s; /* Firefox < 16 */
   -ms-animation: fadein 3s; /* Internet Explorer */
@@ -23,6 +23,7 @@ h1 {
 }
 
 h2 {
+  padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
   color: #fff;
@@ -34,17 +35,18 @@ h2 {
 }
 
 .parallax1 {
-  background: url(https://bit.ly/1R1s2pM)no-repeat;
+  background: url(https://travel.aarp.org/content/dam/travel/destination-images/rocky-mountain-national-park/2014-01/1400-rocky-mountain-national-park-night.jpg)no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
+  height: 550px;
   min-height: 100%;
   margin-top: -35px;
 }
 
 .parallax2 {
-  background: url(https://bit.ly/1RkaEZx)no-repeat;
+  background: url(http://www.chrisstring.com/wp/wp-content/uploads/2014/07/IMG_5798ucr-1500.jpg)no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;

@@ -29,7 +29,7 @@ class HomeContainer extends React.Component {
         </div>
 
         <div className="parallax2">
-          <h1 className="projects-header">Projects</h1>
+          <h2 className="projects-header">Projects</h2>
         </div>
           <div className="content-box">
           <Grid>
