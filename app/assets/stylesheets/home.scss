@@ -145,7 +145,7 @@ h2 {
 .container{
   padding: 1em 0;
   float: left;
-  width: 50%;
+  width: 100%;
 }
 @media screen and (max-width: 640px){
   .container{
@@ -167,9 +167,9 @@ h2 {
 }
 
 .content {
+  text-align: center;
   position: relative;
   width: 90%;
-  max-width: 400px;
   margin: auto;
   overflow: hidden;
 }
@@ -177,7 +177,7 @@ h2 {
 .content .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
