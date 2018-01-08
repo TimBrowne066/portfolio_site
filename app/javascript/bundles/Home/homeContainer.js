@@ -32,21 +32,23 @@ class HomeContainer extends React.Component {
           <h1 className="projects-header">Projects</h1>
         </div>
           <div className="content-box">
+          <Grid>
             <Row>
-              <div className="container">
-                <div className="content">
-                    <div className="content-overlay"></div>
-                    <img className="content-image" src={EyeEnc}/>
-                    <div className="content-details fadeIn-top">
-                      <h3>Eye Encounters</h3>
-                      <p>React-on-Rails - Bootstrap - JQuery</p>
-                      <a href="/"><img className="icon" src={Github}/></a>
-                      <a href="/"><img className="icon" src={Www}/></a>
-                    </div>
+              <Col className="text-center" sm={12} md={12} lg={8} lgOffset={2}>
+                <div className="container text-center">
+                  <div className="content">
+                      <div className="content-overlay"></div>
+                      <img className="content-image" src={EyeEnc}/>
+                      <div className="content-details fadeIn-top">
+                        <h3>Eye Encounters</h3>
+                        <p>React-on-Rails - Bootstrap - JQuery</p>
+                        <a href="/"><img className="icon" src={Github}/></a>
+                        <a href="/"><img className="icon" src={Www}/></a>
+                      </div>
+                  </div>
                 </div>
-              </div>
-            </Row>
-            <Row>
+              </Col>
+              <Col sm={12} md={12} lg={8} lgOffset={2}>
               <div className="container">
                 <div className="content">
                     <div className="content-overlay"></div>
@@ -59,8 +61,8 @@ class HomeContainer extends React.Component {
                     </div>
                 </div>
               </div>
-            </Row>
-            <Row>
+              </Col>
+            <Col sm={12} md={12} lg={8} lgOffset={2}>
               <div className="container">
                 <div className="content">
                     <div className="content-overlay"></div>
@@ -73,7 +75,9 @@ class HomeContainer extends React.Component {
                     </div>
                 </div>
               </div>
+              </Col>
             </Row>
+            </Grid>
           </div>
       </div>
     );

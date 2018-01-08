@@ -90,25 +90,21 @@ h2 {
     to   { opacity: 1; }
 }
 
-/* Firefox < 16 */
 @-moz-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Internet Explorer */
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Opera < 12.1 */
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -147,18 +143,6 @@ h2 {
   float: left;
   width: 100%;
 }
-@media screen and (max-width: 640px){
-  .container{
-    display: block;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 900px){
-  .container{
-    width: 33.33333%;
-  }
-}
 
 .container .title{
   color: #1a1a1a;
@@ -172,6 +156,7 @@ h2 {
   width: 90%;
   margin: auto;
   overflow: hidden;
+
 }
 
 .content .content-overlay {
@@ -187,6 +172,9 @@ h2 {
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
+  border-radius: 25px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .content:hover .content-overlay{
@@ -195,6 +183,9 @@ h2 {
 
 .content-image{
   width: 100%;
+  border-radius: 25px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .content-details {
@@ -255,4 +246,8 @@ h2 {
   border-radius: 50%;
   border: 3px solid #fff;
   margin-top: 5px;
+}
+
+.col-lg-6.col-md-12.col-sm-12{
+  padding: 0px;
 }
