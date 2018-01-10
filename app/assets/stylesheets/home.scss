@@ -1,13 +1,14 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 body,
 html {
   background: #212121;
   width: 100%;
   height: 100%;
   letter-spacing: 1.2px;
-  font-family: helvetica;
+  font-family: 'Questrial', sans-serif;
 }
 
 h1 {
@@ -23,7 +24,6 @@ h1 {
 }
 
 h2 {
-  padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
   color: #fff;
@@ -35,7 +35,7 @@ h2 {
 }
 
 .parallax1 {
-  background: url(https://travel.aarp.org/content/dam/travel/destination-images/rocky-mountain-national-park/2014-01/1400-rocky-mountain-national-park-night.jpg)no-repeat;
+  background: asset_url('parallax2.jpg') no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -46,7 +46,7 @@ h2 {
 }
 
 .parallax2 {
-  background: url(http://www.chrisstring.com/wp/wp-content/uploads/2014/07/IMG_5798ucr-1500.jpg)no-repeat;
+  background: asset_url('parallax1.jpg')no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -113,7 +113,8 @@ h2 {
 }
 
 .projects-header{
-  padding-bottom: 100px;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .project-image{
@@ -255,6 +256,20 @@ h2 {
 }
 
 .avatar{
-  padding-left: 150px;
-  padding-right: 150px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.link-button{
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: 10px;
+  margin: 5px;
 }
