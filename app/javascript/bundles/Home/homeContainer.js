@@ -42,8 +42,8 @@ class HomeContainer extends React.Component {
               <a href="https://www.linkedin.com/in/timothydanielbrowne/"><img className="link-button" src={LinkedIn}/></a><a href="https://github.com/TimBrowne066"><img className="link-button" src={Github}/></a><a href="mailto:timbrowne066@gmail.com"><img className="link-button" src={Email}/></a>
             </Col>
             <Col sm={12} lg={6}>
-              <p className="text-center">I am a former semiconductor fabrications technician, photolithographer, optician, and punk enthusiast turned web developer.  Educated in the Colorado foothills, I am now living in Philadelphia.  I create dynamic web applications from the server up to the User Interface with a wide array of storied and cutting edge technologies.</p>
-              <p className="text-center">My work experience and education at Launch Academy here in Philadelphia have provided me with a sizeable skillset that I continue to expand.  My current repertoire of languages and libraries includes Ruby, C#, JavaScript, HTML5, CSS3, Rails, NodeJS, ReactJS, Sass, Bootstrap, JQuery, and many others.</p>
+              <p className="text-center">I am a former semiconductor fabrications technician, photolithographer, optician, and punk enthusiast turned web developer.  Educated in the Colorado foothills, I am now living in Philadelphia.  I create dynamic web applications from the Database up to the User Interface with a wide array of storied and cutting edge technologies.</p>
+              <p className="text-center">My work experience and education at Launch Academy here in Philadelphia have provided me with a sizeable skillset that I continue to expand.  My current repertoire of languages and libraries includes Ruby, C#, JavaScript, HTML5, CSS3, Rails, NodeJS, ReactJS, Sass, Bootstrap, JQuery, SQL, Amazon Web Services, Google Cloud Platform, and many others.</p>
               <p className="text-center">I am currently seeking role as a web or software developer where I can continue to refine my skills, learn and implement new technologies, and have a blast doing it!</p>
             </Col>
             </Col>
