@@ -5,7 +5,8 @@ import Tourage from '../../../assets/images/TOURAGE.jpg'
 import Github from '../../../assets/images/github.png'
 import Www from '../../../assets/images/www.jpg'
 import { Carousel, Image, Navbar, NavItem, MenuItem, NavDropdown, Nav, PanelGroup, Panel, Grid, Row, Col, Button, Well } from 'react-bootstrap';
-
+import NavBar from '../../Components/navBar'
+import Avatar from '../../../assets/images/avatar.jpg'
 class HomeContainer extends React.Component {
   constructor(props) {
     super(props);
@@ -18,14 +19,30 @@ class HomeContainer extends React.Component {
 
     return (
       <div className="home_header">
+      <NavBar/>
+
         <div className="parallax1">
           <h1>Hello, I'm Tim Browne</h1> '
           <h2>I'm a Full Stack Web Developer</h2> '
         </div>
-
         <div className="content-box">
-          <h3>Headline</h3>
-          <p>Catchy bio.</p>
+        <Grid>
+          <Row>
+            <h3 className="text-center">About me</h3>
+          </Row>
+          <br/>
+          <br/>
+          <Row>
+            <Col className="avatar text-center" sm={6}>
+              <Image responsive thumbnail src={Avatar} />
+              <br/>
+              <br/>
+            </Col>
+            <Col sm={6}>
+              <p className="text-center">Catchy bio.</p>
+            </Col>
+          </Row>
+          </Grid>
         </div>
 
         <div className="parallax2">
@@ -33,7 +50,7 @@ class HomeContainer extends React.Component {
         </div>
           <div className="content-box">
           <Grid>
-            <Row>
+            <Row className="text-center">
               <Col className="text-center" sm={12} md={12} lg={8} lgOffset={2}>
                 <div className="container text-center">
                   <div className="content">
